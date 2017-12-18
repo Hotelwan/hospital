@@ -12,6 +12,7 @@ import java.util.Date;
 public class User implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String id; // 账号
+	private String  username;//姓名
 	private String pwd; // 密码
 	private Date date; // 注册时间
 	private String registIp; //注册时ip
