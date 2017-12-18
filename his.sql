@@ -196,6 +196,7 @@ CREATE TABLE `sys_log` (
 DROP TABLE IF EXISTS `user`;
 CREATE TABLE `user` (
   `id` varchar(20) NOT NULL COMMENT '账号',
+  `username` varchar(200) DEFAULT NULL,
   `pwd` varchar(20) NOT NULL COMMENT '密码',
   `date` datetime DEFAULT NULL COMMENT '注册时间',
   `redist_ip` varchar(50) DEFAULT NULL COMMENT '注册时ip',
